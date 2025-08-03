@@ -1,0 +1,195 @@
+/* Background Video & Overlay */
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+/* Section Wrapper */
+.page-section {
+    position: relative;
+    padding: 6rem 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    min-height: 100vh;
+}
+
+/* Glassmorphic Form Card */
+.flight-card-glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 2rem;
+    width: 90%;
+    max-width: 900px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Heading */
+.glass-heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+/* Form Grid */
+.glass-form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+}
+
+/* Inputs and Selects */
+.glass-form-grid input,
+.glass-form-grid select {
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    border: none;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.85);
+    color: #000;
+}
+
+/* Button */
+.glass-form-grid button {
+    grid-column: span 2;
+    padding: 0.8rem;
+    background: linear-gradient(to right, #ff8008, #ffc837);
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.glass-form-grid button:hover {
+    transform: scale(1.03);
+}
+
+/* Loading message */
+.loading-message {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #eee;
+}
+
+/* Results */
+.results-container {
+    width: 90%;
+    max-width: 1000px;
+    margin-top: 2rem;
+}
+
+.results-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Flight List */
+.flight-results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Each flight card */
+.flight-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+}
+
+.flight-details {
+    flex: 2;
+    min-width: 200px;
+}
+
+.flight-airline {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.flight-route,
+.flight-time {
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.flight-price-section {
+    flex: 1;
+    text-align: right;
+    min-width: 150px;
+}
+
+.flight-price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.flight-book-button {
+    background: #ff8008;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.flight-book-button:hover {
+    background: #ff6a00;
+}
+
+/* No results message */
+.no-results-message {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    color: #f5f5f5;
+    text-align: center;
+    font-weight: 500;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 2rem auto;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: italic;
+    background-image: linear-gradient(to right, #ff8008, #ffc837);
+    color: #fff;
+    border: 2px solid #ff8008;
+}
+    
+    
