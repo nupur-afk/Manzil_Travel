@@ -73,6 +73,12 @@ const LandingPage = () => {
     <img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/4/2024/04/15151103/palm-beach-1.jpeg?tr=w-1200%2Cq-60" alt="Ladakh Mountains" />
     <img src="https://inditales.com/wp-content/uploads/2023/02/riverfront-view-ghats-varanasi.jpg" alt="Varanasi Ghats" />
     <img src="https://static.toiimg.com/thumb/msid-79792907%2Cwidth-748%2Cheight-499%2Cresizemode%3D4%2Cimgsize-159389/.jpg" alt="Andaman Waters" />
+     <img src="https://lp-cms-production.imgix.net/2025-01/shutterstock2542346155-cropped.jpg?auto=compress&fit=crop&format=auto&h=800&q=50&w=1200" alt="Goa Beach" />
+    <img src="https://images.pexels.com/photos/11538476/pexels-photo-11538476.jpeg" alt="Manali Snow" />
+    <img src="https://www.philandgarth.com/wp-content/uploads/2020/08/The-stunning-City-Palace-Jaipur-India-Phil-and-Garth.jpg" alt="Jaipur Palace" />
+    <img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/4/2024/04/15151103/palm-beach-1.jpeg?tr=w-1200%2Cq-60" alt="Ladakh Mountains" />
+    <img src="https://inditales.com/wp-content/uploads/2023/02/riverfront-view-ghats-varanasi.jpg" alt="Varanasi Ghats" />
+    <img src="https://static.toiimg.com/thumb/msid-79792907%2Cwidth-748%2Cheight-499%2Cresizemode%3D4%2Cimgsize-159389/.jpg" alt="Andaman Waters" />
   </div>
 </section>
 <section className="testimonials fade-in">
